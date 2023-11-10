@@ -1,0 +1,53 @@
+import React, { useState } from "react";
+import logo from "../../public/logo_aiemB.png"
+
+const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleNavbar = () => {
+    setIsOpen(!isOpen);
+  };
+
+  return (
+    <div className="z-[999] fixed w-full">
+
+<div className="overflow-hidden bg-[#484494]">
+  <div className="animate-marquee w-full inline-block whitespace-nowrap">
+    <span className="text-white font-custom1">
+    La Gestion Durable de L’Eau, Vers Un Modèle Innovant ET Résilient - Salle de conférences EMI Rabat - 25 Novembre 2023  |  La Gestion Durable de L’Eau, Vers Un Modèle Innovant ET Résilient - Salle de conférences EMI Rabat - 25 Novembre 2023
+    </span>
+    <span className="text-white font-custom1">
+    La Gestion Durable de L’Eau, Vers Un Modèle Innovant ET Résilient - Salle de conférences EMI Rabat - 25 Novembre 2023  |  La Gestion Durable de L’Eau, Vers Un Modèle Innovant ET Résilient - Salle de conférences EMI Rabat - 25 Novembre 2023
+    </span>
+  </div>
+  </div>
+      
+    <div className="navbar bg-white text-blue-900  px-3 lg:px-60">
+    <div className="flex-1">
+      <a className=""><img src={logo} className="w-40" alt="" /></a>
+    </div>
+    <div className="flex-none">
+      <ul className="menu menu-horizontal px-1 text-base font-custom1 font-medium">
+        <li><a>Link</a></li>
+        <li><a>Link</a></li>
+        <li><a>Link</a></li>
+        <li>
+          <details>
+            <summary>
+              Parent
+            </summary>
+            <ul className="p-2 bg-white">
+              <li><a>Link 1</a></li>
+              <li><a>Link 2</a></li>
+            </ul>
+          </details>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </div>
+    
+  );
+};
+
+export default Navbar;
