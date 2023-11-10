@@ -24,7 +24,7 @@ import CountDown from "./CountDown";
 const Home = () => {
   return (
     <div className="bg-white">
-      {/* Hero page */}
+      {/* Hero page page*/}
       <div className={`bg-[url('../../../public/bgHomem.png')] bg-[#484494] lg:bg-[url('../../../public/bgHome.png')] bg-cover`}> 
         <div
           className={`w-full   min-h-screen  flex flex-col  justify-center items-center gap-6 p-7 md:p-8`}
