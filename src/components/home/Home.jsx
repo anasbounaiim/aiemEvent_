@@ -17,6 +17,7 @@ import car4 from "../../../public/car4.png";
 import car5 from "../../../public/car5.png";
 import car6 from "../../../public/car6.png";
 import maps from "../../../public/maps.png";
+import water from "../../../public/waterEcole.png";
 
 import Program from "./Program";
 import CountDown from "./CountDown";
@@ -35,9 +36,11 @@ const Home = () => {
           <h2 className="text-white  text-4xl md:text-5xl lg:text-6xl font-custom text-center w-full md:w-[70%] leading-[2rem] md:leading-[3rem]">
             25 Novembre 2023
           </h2>
+         
           <h3 className="text-white text-xl md:text-5xl lg:text-3xl font-custom text-center w-full md:w-[70%] leading-[2rem] md:leading-[4rem]">
             Salle de conférences EMI Rabat
           </h3>
+          <a target="_blank" href="https://www.aiem.ma/agenda/la-gestion-durable-de-l-eau-vers-un-modele-innovant-et-resilient-193" className="bg-white cursor-pointer hover:bg-slate-50 px-16 py-3 rounded-lg font-bold font-custom1 uppercase text-[#484494]">S'inscrire</a>
 
           <div className="flex flex-col text-lg font-medium text-white items-center w-full">
             <div>
@@ -54,12 +57,12 @@ const Home = () => {
           src={affiche}
           alt=""
         />
-        <div className=" border-4 lg:w-[700px] lg:h-[41rem] flex flex-col bg-white rounded-xl m-7 p-3 border-[#484494] ">
-          <h1 className="lg:text-4xl text-3xl  lg:p-6 p-3 text-center font-custom text-[#484494]">
+        <div className=" border-4 lg:w-[700px] lg:h-[46rem] flex flex-col bg-[#484494] text-white rounded-xl m-7 p-3 border-[#484494] ">
+          <h1 className="lg:text-4xl text-3xl  lg:p-6 p-3 text-center font-custom ">
             ''LA GESTION DURABLE DE L’EAU, VERS UN MODÈLE INNOVANT ET
             RÉSILIENT''
           </h1>
-          <p className="text-base font-custom1 p-6 text-center text-[#484494]">
+          <p className="text-base font-custom1 p-6 text-center ">
             L'Association des Ingénieurs de l'École Mohammadia, avec son Club de
             Développement Durable (CDD) et l'École Mohammadia d'Ingénieurs
             (EMI), a obtenu le haut patronage de Sa Majesté le Roi Mohammed VI
@@ -81,7 +84,10 @@ const Home = () => {
             par les spécificités régionales grâce à l'initiative "Territory
             workshop for Water Sustainability" lancée lors de la rencontre,
             comprenant des rencontres et ateliers dans les 12 régions du Maroc.
+           
           </p>
+          <a target="_blank" href="https://www.aiem.ma/agenda/la-gestion-durable-de-l-eau-vers-un-modele-innovant-et-resilient-193" className="bg-white text-center m-auto w-[50%] cursor-pointer hover:bg-slate-50 px-16 py-3 rounded-lg font-bold font-custom1 uppercase text-[#484494]">S'inscrire</a>
+
         </div>
       </div>
 
@@ -118,7 +124,7 @@ const Home = () => {
         <h1 className="text-[#484494] lg:mt-20 text-center pt-10 text-5xl px-2 lg:text-7xl font-custom">
           Nos intervenants
         </h1>
-        <div className=" mt-10 lg:mt-28 h-fit flex lg:flex-row flex-col w-full justify-center items-center gap-3">
+        <div className=" mt-10 lg:mt-28 h-fit flex lg:flex-row flex-col w-full justify-center items-center  gap-3">
           <div className="w-96 h-w-96 flex flex-col justify-center items-center gap-2">
             <img src={pdp1} className="w-44" alt="" />{" "}
             <span className="text-xl text-[#484494] font-custom1 font-bold">
@@ -146,6 +152,20 @@ const Home = () => {
               DIRECTEUR DE L’ECOLE MOHAMMADIA D’INGÉNIEURS
             </span>
           </div>
+        </div>
+        <div className="flex flex-row p-4 lg:p-0 justify-center items-center w-full h-[700px] mt-5 lg:h-[700px] bg-[#484494] lg:mt-20">
+            <div className="bg-white flex flex-col gap-5 p-14 font-custom1 text-[#484494] w-[500px] h-[600px] lg:h-[500px] lg:rounded-none rounded-xl lg:rounded-l-lg  xl:rounded-l-lg">
+              <span className=" font-semibold">S'INSCRIRE</span> 
+              <span className="text-5xl font-custom  ">Soyez les premiers informés</span>
+              <span>Cliquez sur le bouton ci-dessous pour vous inscrire et être le premier à être informé des nouveaux intervenants, des remises spéciales et des événements sociaux et de réseautage spéciaux du Traffic & Conversion Summit.</span> 
+             <a target="_blank" href="https://www.aiem.ma/agenda/la-gestion-durable-de-l-eau-vers-un-modele-innovant-et-resilient-193" className="w-48 py-4 bg-[#484494] hover:bg-[#4d4990] text-white text-center font-bold rounded-lg">S'INSCRIRE</a>
+              </div>      
+            <div className="bg-red-500 hidden lg:block w-[500px] h-[500px] overflow-hidden rounded-r-lg">
+              <img src={water} alt="" />
+              </div>      
+
+          
+
         </div>
         <h1 className="text-[#484494] lg:mt-20 text-center pt-10 text-5xl px-2 lg:text-7xl font-custom">
           Quelques évènements du CDD
