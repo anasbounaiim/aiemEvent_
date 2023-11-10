@@ -86,7 +86,7 @@ const Home = () => {
             comprenant des rencontres et ateliers dans les 12 régions du Maroc.
            
           </p>
-          <a target="_blank" href="https://www.aiem.ma/agenda/la-gestion-durable-de-l-eau-vers-un-modele-innovant-et-resilient-193" className="bg-white text-center m-auto w-[50%] cursor-pointer hover:bg-slate-50 px-16 py-3 rounded-lg font-bold font-custom1 uppercase text-[#484494]">S'inscrire</a>
+          <a target="_blank" href="https://www.aiem.ma/agenda/la-gestion-durable-de-l-eau-vers-un-modele-innovant-et-resilient-193" className="bg-white text-center m-auto w-full cursor-pointer hover:bg-slate-50 px-16 py-3 rounded-lg font-bold font-custom1 uppercase text-[#484494]">S'inscrire</a>
 
         </div>
       </div>
