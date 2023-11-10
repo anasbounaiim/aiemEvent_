@@ -5,7 +5,7 @@ import { FaLocationDot } from "react-icons/fa6";
 import logo from "../../../public/logo_aiem.png";
 import affiche from "../../../public/affiche.png";
 import bg_fade from "../../../public/bg-bg.png";
-import bg from "../../../public/bg-Home.png";
+import bg from "../../../public/bgHome.png";
 import pdp1 from "../../../public/pdp1.png";
 import pdp2 from "../../../public/pdp2.png";
 import pdp3 from "../../../public/pdp3.png";
