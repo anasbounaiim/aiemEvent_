@@ -25,7 +25,7 @@ const Home = () => {
   return (
     <div className="bg-white">
       {/* Hero page page*/}
-      <div className={`bg-[url('../../../public/bgHomem.png')] bg-[#484494] lg:bg-[url('../../../public/bgHome.png')] bg-cover`}> 
+      <div className={`bg-home1 bg-[#484494] md:bg-home1m bg-cover`}> 
         <div
           className={`w-full   min-h-screen  flex flex-col  justify-center items-center gap-6 p-7 md:p-8`}
         >
@@ -85,7 +85,6 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="w-full hidden lg:block h-96 bg-cover lg:bg-[url('../../../public/bg-bg.png')]"></div>
       {/* PROGRAMME DE L’ATELIER */}
 
       <div className="w-full h-fit bg-[#484494] font-custom1 text-[#484494] ">

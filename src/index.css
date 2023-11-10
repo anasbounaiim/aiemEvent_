@@ -45,3 +45,17 @@
   {
     background: rgba(0, 0, 0, 0.5);
   }
+
+  .bg-home1{
+    background-image: url("../public/bgHome.png");
+    background-size: cover;
+  }
+  .bg-home1m{
+    background-image: url("../public/bgHomem.png");
+    background-size: cover;
+  }
+  .bg-bg{
+    background-image: url("../public/bg-bg.png");
+    background-size: cover;
+  }
+
