@@ -32,24 +32,24 @@ const Countdown = () => {
   return (
     <div className='flex flex-col justify-center items-center'>
       <h1>L'ÉVÉNEMENT COMMENCE EN ...</h1>
-     <div className='mt-8 flex flex-col lg:flex-row gap-4 row-end-2'>
+     <div className='mt-3 flex flex-col lg:flex-row gap-4 row-end-2'>
         <div className='flex flex-row gap-4'>
-        <span className='flex flex-col items-center bg-white w-28 h-28 justify-center rounded-lg text-xl text-[#484494] font-custom1 font-black'>
-            <span className='text-5xl font-bold'>{countdown.days}</span> 
+        <span className='flex shadow-md flex-col items-center bg-white w-24 h-24 justify-center rounded-lg text-xl text-[#484494] font-custom1 font-black'>
+            <span className='text-4xl font-bold'>{countdown.days}</span> 
             <span>Days</span>
         </span>
-        <span className='flex flex-col items-center bg-white w-28 h-28 justify-center rounded-lg text-xl text-[#484494] font-custom1 font-black'>
-            <span className='text-5xl font-bold'>{countdown.hours}</span> 
+        <span className='flex shadow-md flex-col items-center bg-white w-24 h-24 justify-center rounded-lg text-xl text-[#484494] font-custom1 font-black'>
+            <span className='text-4xl font-bold'>{countdown.hours}</span> 
             <span>Hours</span>
         </span>
         </div>
         <div className='flex flex-row gap-4'>
-        <span className='flex flex-col items-center bg-white w-28 h-28 justify-center rounded-lg text-xl text-[#484494] font-custom1 font-black'>
-            <span className='text-5xl font-bold'>{countdown.minutes}</span> 
+        <span className='flex shadow-md flex-col items-center bg-white w-24 h-24 justify-center rounded-lg text-xl text-[#484494] font-custom1 font-black'>
+            <span className='text-4xl font-bold'>{countdown.minutes}</span> 
             <span>Minutes</span>
         </span>
-        <span className='flex flex-col items-center bg-white w-28 h-28 justify-center rounded-lg text-xl text-[#484494] font-custom1 font-black'>
-            <span className='text-5xl font-bold'>{countdown.seconds}</span> 
+        <span className='flex shadow-md flex-col items-center bg-white w-24 h-24 justify-center rounded-lg text-xl text-[#484494] font-custom1 font-black'>
+            <span className='text-4xl font-bold'>{countdown.seconds}</span> 
             <span>Seconds</span>
         </span>
         </div>

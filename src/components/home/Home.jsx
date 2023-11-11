@@ -122,10 +122,10 @@ const Home = () => {
       </div>
 
       <div className="w-full h-fit  lg:h-fit bg-white">
-        <h1 className="text-[#484494] lg:mt-20 text-center pt-10 text-5xl px-2 lg:text-7xl font-custom">
+        <h1 className="text-[#484494] lg:mt-12 text-center pt-10 text-5xl px-2 lg:text-7xl font-custom">
           Nos intervenants
         </h1>
-        <div className=" mt-10 lg:mt-28 h-fit flex lg:flex-row flex-col w-full justify-center items-center  gap-3">
+        <div className=" mt-10 lg:mt-16 h-fit flex lg:flex-row flex-col w-full justify-center items-center  gap-3">
           <div className="w-96 h-w-96 flex flex-col justify-center items-center gap-2">
             <img src={pdp1} className="w-44" alt="" />{" "}
             <span className="text-xl text-[#484494] font-custom1 font-bold">
