@@ -1,6 +1,8 @@
 import Home from "./components/home/Home"
+import About from "./components/about/About"
 import Navbar from "./components/Navbar"
 import React, { useState  } from 'react';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import LoadingSpinner from "./components/Loading";
 
 
@@ -17,17 +19,22 @@ function App() {
   return (
     <>
     
-
+    
 
       {isLoading ? (
         <LoadingSpinner/>
       ) : (
-        <>
-        <Navbar></Navbar>
-      <Home></Home>
-        </>
+        <Router>
+      
+        <Navbar/>
+        <Routes>
+          <Route path="/" exact element={<Home />} />
+          <Route path="/About" exact element={<About />} />
+        </Routes>
+        </Router>
         
       )}
+      
     </>
   )
 }

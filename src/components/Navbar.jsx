@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import logo from "../../public/logo_aiemB.png"
+import {Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,11 +25,11 @@ const Navbar = () => {
       
     <div className="navbar bg-white text-blue-900  px-3 lg:px-60">
     <div className="flex-1">
-      <a className=""><img src={logo} className="w-40" alt="" /></a>
+      <Link to="/"><img src={logo} className="w-40" alt="" /></Link>
     </div>
     <div className="flex-none">
       <ul className="menu menu-horizontal px-1 text-base font-custom1 font-medium">
-        <li><a>À Propos</a></li>
+        <li> <Link to="/About">À Propos </Link></li>
         
         <li><a href="https://www.aiem.ma/agenda/la-gestion-durable-de-l-eau-vers-un-modele-innovant-et-resilient-193" className="bg-[#484494] text-white hover:bg-[#524e97] hover:text-white">S'INSCRIRE</a></li>
       </ul>
