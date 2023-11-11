@@ -29,16 +29,16 @@ const Home = () => {
       {/* Hero page page*/}
       <div className={`bg-home1 bg-[#484494] md:bg-home1m bg-cover`}> 
         <div
-          className={`w-full   min-h-screen  flex flex-col  justify-center items-center gap-6 p-7 md:p-8`}
+          className={`w-full min-h-screen  flex flex-col justify-center items-center gap-6 p-7 md:p-8`}
         >
-          <h1 className="text-white pt-16 text-3xl md:text-5xl lg:text-6xl font-custom text-center w-full md:w-[70%] leading-[2rem] md:leading-[4rem]">
+          <h1 className="text-white pt-16 text-4xl md:text-5xl lg:text-5xl font-custom text-center w-full md:w-[70%] leading-[2rem] md:leading-[4rem]">
             La Gestion Durable de L’Eau, Vers Un Modèle Innovant ET Résilient
           </h1>
-          <h2 className="text-white  text-4xl md:text-5xl lg:text-6xl font-custom text-center w-full md:w-[70%] leading-[2rem] md:leading-[3rem]">
+          <h2 className="text-white  text-4xl md:text-5xl lg:text-5xl font-custom text-center w-full md:w-[70%] leading-[2rem] md:leading-[3rem]">
             25 Novembre 2023
           </h2>
          
-          <h3 className="text-white text-xl md:text-5xl lg:text-3xl font-custom text-center w-full md:w-[70%] leading-[2rem] md:leading-[4rem]">
+          <h3 className="text-white text-xl md:text-5xl lg:text-2xl font-custom text-center w-full md:w-[70%] leading-[2rem] md:leading-[4rem]">
             Salle de conférences EMI Rabat
           </h3>
           <a target="_blank" href="https://www.aiem.ma/agenda/la-gestion-durable-de-l-eau-vers-un-modele-innovant-et-resilient-193" className="bg-white cursor-pointer hover:bg-slate-50 px-16 py-3 rounded-lg font-bold font-custom1 uppercase text-[#484494]">S'inscrire</a>
@@ -54,16 +54,16 @@ const Home = () => {
       {/* About event page */}
       <div className="w-full h-full bg-white flex flex-col items-center justify-center lg:flex-row xl:flex-row">
         <img
-          className="w-[90%] xl:w-[40rem] xl:mx-20 lg:w-[40rem] lg:m-20 items-center rounded-lg shadow-xl "
+          className="w-[90%] xl:w-[30rem] xl:mx-20 lg:w-[30rem] lg:m-20 items-center rounded-lg shadow-xl "
           src={affiche}
           alt=""
         />
-        <div className="overflow-y-scroll border-4 lg:w-[700px] lg:h-[46rem] flex flex-col bg-[#484494] text-white rounded-xl m-7 p-3 border-[#484494] ">
-          <h1 className="lg:text-4xl text-3xl  lg:p-6 p-3 text-center font-custom ">
+        <div className="overflow-y-scroll border-4 lg:w-[600px] lg:h-[40rem] flex flex-col bg-[#484494] text-white rounded-xl m-9 p-3 border-[#484494] ">
+          <h1 className="lg:text-3xl text-2xl  lg:p-6 p-3 text-center font-custom ">
             ''LA GESTION DURABLE DE L’EAU, VERS UN MODÈLE INNOVANT ET
             RÉSILIENT''
           </h1>
-          <p className="text-base font-custom1 p-6 text-center ">
+          <p className="text-sm font-custom1 p-6 text-center ">
             L'Association des Ingénieurs de l'École Mohammadia, avec son Club de
             Développement Durable (CDD) et l'École Mohammadia d'Ingénieurs
             (EMI), a obtenu le haut patronage de Sa Majesté le Roi Mohammed VI
