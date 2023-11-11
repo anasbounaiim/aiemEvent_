@@ -94,7 +94,7 @@ const Home = () => {
 
       {/* PROGRAMME DE L’ATELIER */}
 
-      <div className="w-full flex flex-col justify-center h-screen bg-[#484494] font-custom1 text-[#484494] ">
+      <div className="w-full flex flex-col justify-center lg:h-[900px] p-4  bg-[#484494] font-custom1 text-[#484494] ">
         <h1 className="text-white text-center pt-10 text-5xl px-2 lg:text-7xl font-custom">
           PROGRAMME DE L’ATELIER
         </h1>

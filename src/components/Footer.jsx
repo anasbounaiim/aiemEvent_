@@ -27,7 +27,7 @@ const Footer = () => {
             </ul>
         </div>
         <hr class="my-6  sm:mx-auto lg:my-8" />
-        <span class="block text-sm  sm:text-center text-white ">© 2023 <a href="https://www.linkedin.com/in/anas-bounaim-37450621a/" class="hover:underline">Buuuu™</a>. All Rights Reserved.</span>
+        <span class="block text-sm  sm:text-center text-white ">© 2023 <a target="_blank" href="https://www.linkedin.com" class="hover:underline">Buuuu™</a>. All Rights Reserved.</span>
     </div>
 </footer>
 
