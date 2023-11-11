@@ -38,12 +38,12 @@
   
   ::-webkit-scrollbar-track
   {
-    background: rgba(0, 0, 0, 0.1);
+    background: rgba(58, 77, 172, 0.1);
   }
   
   ::-webkit-scrollbar-thumb
   {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(45, 48, 147, 0.5);
   }
 
   .bg-home1{

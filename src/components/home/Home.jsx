@@ -58,7 +58,7 @@ const Home = () => {
           src={affiche}
           alt=""
         />
-        <div className=" border-4 lg:w-[700px] lg:h-[46rem] flex flex-col bg-[#484494] text-white rounded-xl m-7 p-3 border-[#484494] ">
+        <div className="overflow-y-scroll border-4 lg:w-[700px] lg:h-[46rem] flex flex-col bg-[#484494] text-white rounded-xl m-7 p-3 border-[#484494] ">
           <h1 className="lg:text-4xl text-3xl  lg:p-6 p-3 text-center font-custom ">
             ''LA GESTION DURABLE DE L’EAU, VERS UN MODÈLE INNOVANT ET
             RÉSILIENT''
