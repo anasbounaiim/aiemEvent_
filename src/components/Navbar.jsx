@@ -29,8 +29,6 @@ const Navbar = () => {
     <div className="flex-none">
       <ul className="menu menu-horizontal px-1 text-base font-custom1 font-medium">
         <li><a>Link</a></li>
-        <li><a>Link</a></li>
-        <li><a>Link</a></li>
         <li>
           <details>
             <summary>
@@ -42,6 +40,7 @@ const Navbar = () => {
             </ul>
           </details>
         </li>
+        <li><a href="https://www.aiem.ma/agenda/la-gestion-durable-de-l-eau-vers-un-modele-innovant-et-resilient-193" className="bg-[#484494] text-white hover:bg-[#524e97] hover:text-white">S'INSCRIRE</a></li>
       </ul>
     </div>
   </div>
