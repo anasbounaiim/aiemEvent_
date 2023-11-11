@@ -7,7 +7,7 @@ const Footer = () => {
 <footer class="bg-[#484494]   shadow  font-custom1 ">
     <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
         <div class="sm:flex sm:items-center sm:justify-between">
-            <a href="https://www.aiem.ma/" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+            <a href="https://www.aiem.ma/" class="flex items-center justify-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
                 <img src={logo} class="w-20" alt="Flowbite Logo" />
                 
             </a>
