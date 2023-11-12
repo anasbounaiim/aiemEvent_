@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="z-[999] fixed w-full">
+    <div className="z-[999] fixed w-full drop-shadow-sm">
 
 <div className="overflow-hidden bg-[#484494]">
   <div className="animate-marquee w-full inline-block whitespace-nowrap">
