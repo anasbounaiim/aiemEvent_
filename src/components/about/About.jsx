@@ -1,5 +1,6 @@
 import abt_aiem from "../../../public/abt_aiem.jpg";
 import cdd_abt from "../../../public/cdd_abt.png";
+import Footer from "../Footer"
 
 const About = () => {
   return (
@@ -151,6 +152,7 @@ const About = () => {
         </h1>
        
       </div>
+      <Footer/>
     </>
   );
 };
