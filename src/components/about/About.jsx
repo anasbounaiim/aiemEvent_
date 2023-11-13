@@ -152,7 +152,7 @@ const About = () => {
         </h1>
         
             <h1 className="text-3xl font-bold mb-4 text-[#484494] lg:mt-8 py-7">I. CONTEXTE ET ENJEUX DE LA GESTION DE L’EAU</h1>
-            <p className="text-[#484494] font-custom1 text-lg break-keep">
+            <p className="text-[#484494] font-custom1 text-lg break-all">
             Le déficit hydrique en eau au Maroc s’accentuera de plus en plus pour atteindre une pénurie en 2030
               Ce bilan est étroitement lié à plusieurs facteurs dont :
                     <ul class="list-disc pl-8">
@@ -191,17 +191,17 @@ const About = () => {
 
             
             <h2 className="text-3xl font-bold mb-4 text-[#484494] lg:mt-8 py-7">II. OBJECTIFS</h2>
-    <p className="text-[#484494] font-custom1 text-lg break-keep py-3">C’est dans ce contexte que s’inscrit l’organisation, par l’Association des Ingénieurs de l’École Mohammadia en partenariat avec l’École Mohammadia d’Ingénieurs, de l’Atelier qui se tiendra le 25 novembre 2023 à l’EMI - Rabat sous le thème :</p>
+    <p className="text-[#484494] font-custom1 text-lg break-all py-3 px-3">C’est dans ce contexte que s’inscrit l’organisation, par l’Association des Ingénieurs de l’École Mohammadia en partenariat avec l’École Mohammadia d’Ingénieurs, de l’Atelier qui se tiendra le 25 novembre 2023 à l’EMI - Rabat sous le thème :</p>
 
     <blockquote>
-        <p className="text-[#484494] font-custom1 text-lg break-keep font-extrabold">« GESTION DURABLE DE L’EAU VERS UN MODELE INNOVANT ET RESILENT »</p>
+        <p className="text-[#484494] font-custom1 text-lg break-all font-extrabold px-3">« GESTION DURABLE DE L’EAU VERS UN MODELE INNOVANT ET RESILENT »</p>
     </blockquote>
 
-    <p className="text-[#484494] font-custom1 text-lg break-keep py-3">Ainsi, cette conférence-débat se donne pour objectif de faciliter les échanges et retours d’expériences en matière de planification, de régulation, de financement, de déploiement des technologies de production et d’optimisation des ressources en eau conventionnelles, ainsi que le recours aux eaux non conventionnelles (dessalement de l’eau de mer et l’eau saumâtre, réutilisation des eaux usées, collecte des eaux pluviales, et autres) pour les divers usages agricole, industriel, touristique, etc.). Les échanges mettront également l’accent sur les impacts de ces différentes solutions sur l’environnement, les impératifs d’adaptation au changement climatique et les opportunités d’obtention de dividendes économiques, sociétaux et environnementaux.</p>
+    <p className="text-[#484494] font-custom1 text-lg break-all py-3 px-3">Ainsi, cette conférence-débat se donne pour objectif de faciliter les échanges et retours d’expériences en matière de planification, de régulation, de financement, de déploiement des technologies de production et d’optimisation des ressources en eau conventionnelles, ainsi que le recours aux eaux non conventionnelles (dessalement de l’eau de mer et l’eau saumâtre, réutilisation des eaux usées, collecte des eaux pluviales, et autres) pour les divers usages agricole, industriel, touristique, etc.). Les échanges mettront également l’accent sur les impacts de ces différentes solutions sur l’environnement, les impératifs d’adaptation au changement climatique et les opportunités d’obtention de dividendes économiques, sociétaux et environnementaux.</p>
 
-    <p className="text-[#484494] font-custom1 text-lg break-keep py-3">Elle devrait ainsi permettre d’avancer la réflexion, selon une approche systémique à long terme, sur les modèles institutionnels et économiques contractuels et de gouvernance innovants, ainsi que sur les solutions alternatives technologiques les plus appropriées, du rôle des PPP (partenariats public-privé) et du quadruple hélix constitué par les chercheurs scientifiques, l’entreprise publique et privée, les régions territoriales et de la société civile pour leur mise en oeuvre afin de relever les défis du stress hydrique au niveau de la Région, en alignement avec les ambitions et les objectifs stratégiques du Nouveau Modèle de Développement.</p>
+    <p className="text-[#484494] font-custom1 text-lg break-all py-3 px-3">Elle devrait ainsi permettre d’avancer la réflexion, selon une approche systémique à long terme, sur les modèles institutionnels et économiques contractuels et de gouvernance innovants, ainsi que sur les solutions alternatives technologiques les plus appropriées, du rôle des PPP (partenariats public-privé) et du quadruple hélix constitué par les chercheurs scientifiques, l’entreprise publique et privée, les régions territoriales et de la société civile pour leur mise en oeuvre afin de relever les défis du stress hydrique au niveau de la Région, en alignement avec les ambitions et les objectifs stratégiques du Nouveau Modèle de Développement.</p>
 
-    <p className="text-[#484494] font-custom1 text-lg break-keep py-3">Afin de mettre en exergue les spécificités régionales, le CDD lancera lors de la conférencedébat, l’initiative intitulée «Territory Lab for Water Sustainability», consistant en une série de rencontres/ateliers régionaux dans les 12 régions du Maroc (en présentiel et/ou en virtuel) qui viendraient renforcer et enrichir les différentes recommandations initiales.</p>
+    <p className="text-[#484494] font-custom1 text-lg break-all py-3 px-3">Afin de mettre en exergue les spécificités régionales, le CDD lancera lors de la conférencedébat, l’initiative intitulée «Territory Lab for Water Sustainability», consistant en une série de rencontres/ateliers régionaux dans les 12 régions du Maroc (en présentiel et/ou en virtuel) qui viendraient renforcer et enrichir les différentes recommandations initiales.</p>
 
             
            
