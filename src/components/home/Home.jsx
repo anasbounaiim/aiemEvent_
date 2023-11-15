@@ -9,6 +9,9 @@ import bg from "../../../public/bgHome.png";
 import pdp1 from "../../../public/pdp1.png";
 import pdp2 from "../../../public/pdp2.png";
 import pdp3 from "../../../public/pdp3.png";
+import pdp4 from "../../../public/pdp4.png";
+import pdp5 from "../../../public/pdp5.png";
+import pdp6 from "../../../public/pdp6.png";
 
 import car1 from "../../../public/car1.png";
 import car2 from "../../../public/car2.png";
@@ -131,17 +134,31 @@ const Home = () => {
         <h1 className="text-[#484494] lg:mt-12 text-center pt-10 text-5xl px-2 lg:text-7xl font-custom">
           Nos intervenants
         </h1>
-        <div className=" mt-10 lg:mt-16 h-fit flex lg:flex-row flex-col w-full justify-center items-center  gap-3">
-          <div className="w-96 h-w-96 flex flex-col justify-center items-center gap-2">
-            <img src={pdp1} className="w-44" alt="" />{" "}
+        <div className="mt-10 lg:mt-16 h-fit flex lg:flex-row flex-col w-full justify-center items-center  gap-3">
+           {/* new intervenat */}
+           <div className="w-96 h-w-96 flex flex-col justify-center items-center gap-3">
+            <img src={pdp6} className="w-44" alt="ABDELLATIF MIRAOUI" />{" "}
             <span className="text-xl text-[#484494] font-custom1 font-bold">
-              Mme Asmae Eloufir
+            M. ABDELLATIF MIRAOUI
             </span>{" "}
             <span className="text-base text-[#484494] font-custom1  text-center">
-              LA SECRÉTAIRE GÉNÉRALE DU CLUB DE DÉVELOPPEMENT DURABLE CDD
+Ministère de l'Enseignement Supérieur, de la
+Recherche Scientifique et l'Innovation
             </span>
           </div>
-          <div className="w-96 h-w-96 flex flex-col justify-center items-center gap-2">
+          {/* new intervenat */}
+           <div className="w-96 h-w-96 flex flex-col justify-center items-center gap-3">
+            <img src={pdp5} className="w-44" alt="ABDELLATIF MIRAOUI" />{" "}
+            <span className="text-xl text-[#484494] font-custom1 font-bold">
+            M. NIZAR BARAKA
+            </span>{" "}
+            <span className="text-base text-[#484494] font-custom1  text-center">
+Ministère de l'Équipement et de l'Eau
+            </span>
+          </div>
+        </div>
+        <div className=" mt-10 lg:mt-16 h-fit flex lg:flex-row flex-col w-full justify-center items-center">
+        <div className="w-96 h-w-96 flex flex-col justify-center items-center gap-3">
             <img src={pdp2} className="w-44" alt="" />{" "}
             <span className="text-xl text-[#484494] font-custom1 font-bold">
               Mme Nawal Gharmili Sefrioui
@@ -150,13 +167,37 @@ const Home = () => {
               PRÉSIDENTE DE L’AIEM
             </span>
           </div>
-          <div className="w-96 h-w-96 flex flex-col justify-center items-center gap-2">
+          <div className="w-96 h-w-96 flex flex-col justify-center items-center gap-3">
             <img src={pdp3} className="w-44" alt="" />{" "}
             <span className="text-xl text-[#484494] font-custom1 font-bold">
               M. Hassane Mahmoudi
             </span>{" "}
             <span className="text-base text-[#484494] font-custom1  text-center">
               DIRECTEUR DE L’ECOLE MOHAMMADIA D’INGÉNIEURS
+            </span>
+          </div>
+
+         
+         
+          {/* new intervenat */}
+          <div className="w-96 h-w-96 flex flex-col justify-center items-center gap-3">
+            <img src={pdp4} className="w-44" alt="ABDELLATIF MIRAOUI" />{" "}
+            <span className="text-xl text-[#484494] font-custom1 font-bold">
+            M. FARID EL BACHA
+            </span>{" "}
+            <span className="text-base text-[#484494] font-custom1  text-center">
+            Président par Intérim de l'Université Mohammed V
+            </span>
+          </div>
+          
+
+          <div className="w-96 h-w-96 flex flex-col justify-center items-center gap-3">
+            <img src={pdp1} className="w-44" alt="" />{" "}
+            <span className="text-xl text-[#484494] font-custom1 font-bold">
+              Mme Asmae Eloufir
+            </span>{" "}
+            <span className="text-base text-[#484494] font-custom1  text-center">
+              LA SECRÉTAIRE GÉNÉRALE DU CLUB DE DÉVELOPPEMENT DURABLE CDD
             </span>
           </div>
         </div>
