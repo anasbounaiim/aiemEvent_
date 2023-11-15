@@ -19,6 +19,8 @@ import car6 from "../../../public/car6.png";
 import maps from "../../../public/maps.png";
 import water from "../../../public/waterEcole.png";
 
+import afch_gif from "../../../public/animation_affiche.gif"
+
 import Program from "./Program";
 import CountDown from "./CountDown";
 import Footer from "../Footer";
@@ -35,7 +37,7 @@ const Home = () => {
             La Gestion Durable de L’Eau, Vers Un Modèle Innovant ET Résilient
           </h1>
           <h2 className="text-white  text-4xl md:text-5xl lg:text-5xl font-custom text-center w-full md:w-[70%] leading-[2rem] md:leading-[3rem]">
-            25 Novembre 2023
+            25 Novembre 2023 à 08h30
           </h2>
          
           <h3 className="text-white text-xl md:text-5xl lg:text-2xl font-custom text-center w-full md:w-[70%] leading-[2rem] md:leading-[4rem]">
@@ -90,6 +92,10 @@ const Home = () => {
           <a target="_blank" href="https://www.aiem.ma/agenda/la-gestion-durable-de-l-eau-vers-un-modele-innovant-et-resilient-193" className="bg-white text-center m-auto w-full cursor-pointer hover:bg-slate-50 px-16 py-3 rounded-lg font-bold font-custom1 uppercase text-[#484494]">S'inscrire</a>
 
         </div>
+      </div>
+      <div className="w-full h-full bg-white flex flex-col items-center justify-center lg:mb-4 lg:mt[-20px] lg:flex-row xl:flex-row">
+        <img src={afch_gif} alt="" />
+
       </div>
 
       {/* PROGRAMME DE L’ATELIER */}

@@ -14,12 +14,8 @@ const Navbar = () => {
 
 <div className="overflow-hidden bg-[#484494]">
   <div className="animate-marquee w-full inline-block whitespace-nowrap">
-    <span className="text-white font-custom1">
-    La Gestion Durable de L’Eau, Vers Un Modèle Innovant ET Résilient - Salle de conférences EMI Rabat - 25 Novembre 2023  |  La Gestion Durable de L’Eau, Vers Un Modèle Innovant ET Résilient - Salle de conférences EMI Rabat - 25 Novembre 2023
-    </span>
-    <span className="text-white font-custom1">
-    La Gestion Durable de L’Eau, Vers Un Modèle Innovant ET Résilient - Salle de conférences EMI Rabat - 25 Novembre 2023  |  La Gestion Durable de L’Eau, Vers Un Modèle Innovant ET Résilient - Salle de conférences EMI Rabat - 25 Novembre 2023
-    </span>
+    <span className="text-white font-custom1 w-full">La Gestion Durable de L’Eau, Vers Un Modèle Innovant ET Résilient-EMI Rabat-25 Novembre 2023 à 08h30 </span>
+    
   </div>
   </div>
       
