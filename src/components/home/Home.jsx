@@ -225,50 +225,29 @@ Ministère de l'Équipement et de l'Eau
         </h1>
 
         <div className="w-full flex justify-center ">
-        <div className="carousel w-[60%] lg:mt-8">
-  <div id="slide1" className="carousel-item relative w-full">
-    <img src={car1} className="w-full  h-[600px]" />
-    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-      <a href="#slide4" className="btn btn-circle">❮</a> 
-      <a href="#slide2" className="btn btn-circle">❯</a>
-    </div>
-  </div> 
-  <div id="slide2" className="carousel-item relative w-full">
-    <img src={car2} className="w-full  h-[600px]" />
-    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-      <a href="#slide1" className="btn btn-circle">❮</a> 
-      <a href="#slide3" className="btn btn-circle">❯</a>
-    </div>
-  </div> 
-  <div id="slide3" className="carousel-item relative w-full">
-    <img src={car3} className="w-full  h-[600px]" />
-    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-      <a href="#slide2" className="btn btn-circle">❮</a> 
-      <a href="#slide4" className="btn btn-circle">❯</a>
-    </div>
-  </div> 
-  <div id="slide4" className="carousel-item relative w-full">
-    <img src={car4} className="w-full  h-[600px]" />
-    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-      <a href="#slide3" className="btn btn-circle">❮</a> 
-      <a href="#slide1" className="btn btn-circle">❯</a>
-    </div>
-  </div>
-  <div id="slide4" className="carousel-item relative w-full">
-    <img src={car5} className="w-full  h-[600px]" />
-    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-      <a href="#slide3" className="btn btn-circle">❮</a> 
-      <a href="#slide1" className="btn btn-circle">❯</a>
-    </div>
-  </div>
-  <div id="slide4" className="carousel-item relative w-full">
-    <img src={car6} className="w-full h-[600px]" />
-    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-      <a href="#slide3" className="btn btn-circle">❮</a> 
-      <a href="#slide1" className="btn btn-circle">❯</a>
-    </div>
-  </div>
-</div>
+        <div className="w-full flex justify-center lg:mt-8">
+          <div className="carousel carousel-center h-[400px] lg:h-[500px]  lg:w-[70%] p-4 gap-7   rounded-box">
+            <div className="carousel-item">
+              <img src={car1} className="rounded-box" />
+            </div>
+            <div className="carousel-item">
+              <img src={car2} className="rounded-box" />
+            </div>
+            <div className="carousel-item">
+              <img src={car3} className="rounded-box" />
+            </div>
+            <div className="carousel-item">
+              <img src={car4} className="rounded-box" />
+            </div>
+            <div className="carousel-item">
+              <img src={car5} className="rounded-box" />
+            </div>
+            <div className="carousel-item">
+              <img src={car6} className="rounded-box" />
+            </div>
+          </div>
+        </div>
+     
 
         </div>
       </div>
