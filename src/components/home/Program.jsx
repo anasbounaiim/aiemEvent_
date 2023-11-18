@@ -26,7 +26,7 @@ const Tabs = ({ color }) => {
                 href="#link1"
                 role="tablist"
               >
-                08:30-09:00
+                08:00-08:30
               </a>
             </li>
             <li className=" flex-auto text-center">
@@ -45,7 +45,7 @@ const Tabs = ({ color }) => {
                 href="#link2"
                 role="tablist"
               >
-                09:00-10:00
+                08:30-09:50
               </a>
             </li>
             <li className=" flex-auto text-center">
@@ -64,7 +64,7 @@ const Tabs = ({ color }) => {
                 href="#link3"
                 role="tablist"
               >
-                10:00-10:30
+                09:50-10:00
               </a>
             </li>
             <li className=" flex-auto text-center">
@@ -83,7 +83,7 @@ const Tabs = ({ color }) => {
                 href="#link4"
                 role="tablist"
               >
-                10:30-11:00
+                10:00-11:00
               </a>
             </li>
             <li className=" flex-auto text-center">
@@ -102,7 +102,7 @@ const Tabs = ({ color }) => {
                 href="#link5"
                 role="tablist"
               >
-                11:00-12:00
+                11:00-11:20
               </a>
             </li>
             <li className=" flex-auto text-center">
@@ -121,7 +121,7 @@ const Tabs = ({ color }) => {
                 href="#link6"
                 role="tablist"
               >
-                12:00-13:00
+                11:20-12:20
               </a>
             </li>
             <li className=" flex-auto text-center">
@@ -140,7 +140,7 @@ const Tabs = ({ color }) => {
                 href="#link7"
                 role="tablist"
               >
-                13:00-14:00
+                12:25-13:25
               </a>
             </li>
             <li className=" flex-auto text-center">
@@ -159,7 +159,7 @@ const Tabs = ({ color }) => {
                 href="#link7"
                 role="tablist"
               >
-                13:00-14:00
+                13:25-14:10
               </a>
             </li>
             <li className=" flex-auto text-center">
@@ -178,7 +178,7 @@ const Tabs = ({ color }) => {
                 href="#link7"
                 role="tablist"
               >
-                13:00-14:00
+                14:10-14:30
               </a>
             </li>
             <li className=" flex-auto text-center">
@@ -197,7 +197,7 @@ const Tabs = ({ color }) => {
                 href="#link7"
                 role="tablist"
               >
-                13:00-14:00
+                14:30 
               </a>
             </li>
           </ul>
@@ -217,55 +217,39 @@ const Tabs = ({ color }) => {
                     <br />
 
                     <p className="px-5 mt-3">
-                      - Ministère de l’Enseignement Supérieur, de la Recherche
-                      Scientifique et l’Innovation
-                      <br />
-                      - Ministère de l’Équipement et de l’Eau
-                      <br />
-                      - Ministère de l’Agriculture, de la Pèche Maritime, du
-                      Développement Rural et des Eaux et Forets
-                      <br />
-                      - Ministère de l’intérieur
-                      <br />
-                      - Ministère de la Transition Énergétique et Développement
-                      Durable
-                      <br />
-                      - Ministère de l’Industrie et du Commerce
-                      <br />
-                      - Ministère de la Transition Numérique et de la Réforme de
-                      l’Administration
-                      <br />
-                      - École Mohammadia d’Ingénieurs
-                      <br />- Association des Ingénieurs de l’École Mohammadia
+                      <ul>
+                        <li>
+                          Ministère de l’Enseignement Supérieur, de la Recherche
+                          Scientifique et l’Innovation
+                        </li>
+                        <li>Ministère de l’Équipement et de l’Eau</li>
+                        <li>
+                          Direction Générale des Collectivités Territoriales
+                        </li>
+                        <li>Université Mohammed V</li>
+                        <li>École Mohammadia d’Ingénieurs</li>
+                        <li>
+                          Association des Ingénieurs de l’École Mohammadia
+                        </li>
+                      </ul>
                     </p>
                   </p>
                 </div>
                 <div className={openTab === 3 ? "block" : "hidden"} id="link3">
                   <p>
                     <span className="text-xl font-bold px-4 ">
-                      Séance plénière : Sécurité hydrique et Nouveau Modèle de
-                      Développement
+                      Club Développement Durable
                     </span>
                     <br />
                     <p className="text-lg font-medium px-4 pt-2 ">
-                      Modérateur général : Slama Lambirik
-                    </p>
-                    <br />
-                    <p className="px-4 ">
-                      Synthèse des réflexions du Club Développement Durable
-                      croisé avec le Nouveau Modèle de Développement :
-                      Recommandations préliminaires, résumé exécutif, commission
-                      du livre blanc.
+                      Présentation des activités du Club Développement Durable,
+                      Livre blanc et Lancement des ateliers régionaux à
+                      l’échelle du Maroc (Territorial Workshop for Water
+                      Sustainability TW4WS)
                     </p>
                   </p>
                 </div>
                 <div className={openTab === 4 ? "block" : "hidden"} id="link4">
-                  <p>
-                    <span className="text-xl font-bold px-4 ">Pause-café</span>
-                    <br />
-                  </p>
-                </div>
-                <div className={openTab === 5 ? "block" : "hidden"} id="link5">
                   <p>
                     <span className="text-xl font-bold pl-4 ">
                       Table ronde 1 : Optimisation des ressources hydriques
@@ -273,22 +257,17 @@ const Tabs = ({ color }) => {
                     </span>
                     <br />
                     <p className="text-lg font-medium px-4 pt-2 ">
-                      Modérateur : Mhamed Belghiti (Rapporteurs : élèves
-                      ingénieurs à identifier)
+                      Modérateur : Mhamed Belghiti (Rapporteurs : Yassine Zalim
+                      + Rhita Bennouna)
                     </p>
                     <br />
                     <p className="px-4 ">
                       - Stratégies d’optimisation de la gestion de la demande
                       d’eau potable et industrielle :{" "}
                       <span className="font-bold">Mustapha El Habti</span>{" "}
-                      <br />
-                      -Sensibilisation et économie de l’eau : Promouvoir une
-                      culture de préservation et d’utilisation responsable :
-                      <span className="font-bold"> Abderrahim El Hafidi</span>
-                      <br /> - Quelles approches régionales pour une
-                      exploitation rationnelle et durable des ressources en eau
-                      souterraines ? :{" "}
-                      <span className="font-bold">Abdelaziz Zerouali</span>
+                      <br />- Quelles approches régionales pour une exploitation
+                      rationnelle et durable des ressources en eau souterraines
+                      ? : <span className="font-bold">Abdelaziz Zerouali</span>
                       <br /> - Comment concilier les besoins agricoles et la
                       préservation des ressources hydriques pour une agriculture
                       durable : <span className="font-bold">
@@ -300,7 +279,18 @@ const Tabs = ({ color }) => {
                       <br />- Apport des technologies spatiales de surveillance
                       et de gestion des ressources hydriques :{" "}
                       <span className="font-bold">Driss El Hadani</span>
+                      <br />
+                      -Sensibilisation et économie de l’eau : Promouvoir une
+                      culture de préservation et d’utilisation responsable :
+                      <span className="font-bold"> ONEE</span>
+                      <br />
                     </p>
+                  </p>
+                </div>
+                <div className={openTab === 5 ? "block" : "hidden"} id="link5">
+                  <p>
+                    <span className="text-xl font-bold px-4 ">Pause-café</span>
+                    <br />
                   </p>
                 </div>
                 <div className={openTab === 6 ? "block" : "hidden"} id="link6">
@@ -310,30 +300,30 @@ const Tabs = ({ color }) => {
                       conventionnelles
                     </span>
                     <p className="text-lg font-medium px-4 pt-2 ">
-                      Modérateur : Abdelkader Saidi (Rapporteurs : élèves
-                      ingénieurs à identifier)
+                      Modérateur : Abdelkader Saidi (Rapporteurs : Mohammed
+                      Ghazi + Youssef Zerradi)
                     </p>
 
                     <p className="px-4 mt-5">
                       - Réutilisation des eaux usées traitées au Maroc – Etat
                       Actuel et Perspectives :{" "}
-                      <span className="font-bold">
-                        Safae Amarti et Abdelkader Saidi
-                      </span>{" "}
-                      <br />- Dessalement de l’eau de mer et de l’eau saumâtre -
-                      Etat Actuel et Perspectives :{" "}
-                      <span className="font-bold">Khalid Tahri</span> <br />-
-                      Réutilisation des eaux usées traitées : Avantages, défis
-                      et bonnes pratiques :{" "}
-                      <span className="font-bold">Zineb Benjelloun</span> <br />
-                      - Dessalement de l’eau de mer et de l’eau saumâtre :
+                      <span className="font-bold">Safae Amarti</span> <br />-
+                      Dessalement de l’eau de mer et de l’eau saumâtre - Etat
+                      Actuel et Perspectives :{" "}
+                      <span className="font-bold">Mahmoud Hafsi</span> <br />-
+                      Mobilisation des eaux non conventionnelles : Avantages,
+                      défis et bonnes pratiques :{" "}
+                      <span className="font-bold"> OCP</span>
+                      <br />- Dessalement de l’eau de mer et de l’eau saumâtre :
                       Avancées technologiques et perspectives pour une
                       utilisation durable :{" "}
                       <span className="font-bold">Jawad El Kharraz</span> <br />
                       - Gestion des eaux pluviales : Meilleures pratiques de
                       collecte et d’utilisation efficace :{" "}
                       <span className="font-bold">Moulay Driss Hasnaoui</span>{" "}
-                      <br />
+                      <br />- - Impact de l’adoption des énergies renouvelables
+                      sur la valorisation des eaux conventionnelles :{" "}
+                      <span className="font-bold">Hicham Bouzekri</span>
                     </p>
                   </p>
                 </div>
@@ -342,11 +332,11 @@ const Tabs = ({ color }) => {
                     <span className="text-xl font-bold px-4 ">
                       Table Ronde 3 : Recherche, Développement, Innovation et
                       Éducation : Pour une gestion durable et intelligente de
-                      l’eau
+                      l’eau ( Durée 1H )
                     </span>
                     <p className="text-lg font-medium px-4 pt-2 ">
-                      Modérateur : Driss Ouazar (Rapporteurs : élèves ingénieurs
-                      à identifier)
+                      Modérateur : Driss Ouazar (Rapporteurs : Amal Aboulhassane
+                      + Othman Ait Ihia)
                     </p>
 
                     <p className="px-4 mt-5">
@@ -361,7 +351,7 @@ const Tabs = ({ color }) => {
                       efficace des ressources hydriques :{" "}
                       <span className="font-bold">
                         {" "}
-                        Jamal Eddine Jellal et Naoual Semlali
+                        Naoual Semlali Hassani & Jamaleddine Jellal
                       </span>{" "}
                       <br />- Apport des technologies avancées (IoT, IA,
                       Blockchain, etc.) dans la gestion de l’eau : Potentiels et
@@ -385,37 +375,51 @@ const Tabs = ({ color }) => {
                       Table ronde 4 : Financements et Modèles innovants
                     </span>
                     <p className="text-lg font-medium px-4 pt-2 ">
-                      Modérateur : Mohamed Benahmed (Rapporteurs : élèves
-                      ingénieurs à identifier)
-                    </p>
-                    <p className="px-4 mt-5">
-                      - Réformes institutionnelles : Quelles mesures pour
-                      améliorer la gouvernance et la régulation de l’eau ? :{" "}
-                      <span className="font-bold">Houria Tazi Sadek</span>{" "}
-                      <br />
-                      (COALMA + CNDH-RSK) - Financer la durabilité hydrique :
-                      Opportunités de la Finance Climatique dans la gestion de
-                      l’eau : <span className="font-bold">
-                        Mohamed Fikrat
-                      </span>{" "}
-                      <br />- Dispositifs collaboratifs pour la co-conception,
-                      la co-implémentation et le financement de feuilles de
-                      routes régionales contextualisées de l’eau :{" "}
-                      <span className="font-bold">Mohamed Benahmed</span> <br />
-                      - Financements Internationaux : WB, GIZ, KFW, AFD, USFTI{" "}
+                      <ul>
+                        <li>
+                          Réformes institutionnelles : Quelles mesures pour
+                          améliorer la gouvernance et la régulation de l’eau ? :
+                           <span className="font-bold">
+                           Houria Tazi Sadek
+                      </span>
+                        </li>
+                        <li>
+                          Financer la durabilité hydrique : Opportunités de la
+                          Finance Climatique dans la gestion de l’eau - Iskander
+                           <span className="font-bold">
+                           Erzini Vernoit
+                      </span>
+                        </li>
+                        <li>
+                          Nouveaux modèles de partenariat –  <span className="font-bold">
+                          Mustapha Hajji
+                      </span>
+                        </li>
+                        <li>
+                          Financement des bailleurs de fonds :  <span className="font-bold">
+                          Safae Bahije
+                      </span>
+                        </li>
+                        <li>
+                          Représentant international:  <span className="font-bold">
+                          Cristina Di Silvio
+                      </span>  Directeur des relations Internationales de la
+                          communauté Européenne pour l’USFTI
+                        </li>
+                      </ul>
                     </p>
                   </p>
                 </div>
                 <div className={openTab === 9 ? "block" : "hidden"} id="link9">
                   <p>
-                  <span className="text-xl font-bold px-4 ">
-                  Restitution de la journée
+                    <span className="text-xl font-bold px-4 ">
+                      Restitution de la journée
                     </span>
                     <p className="px-4 mt-5">
-                    - Résumé des points clés et des discussions de chaque table ronde <br />
-                    - Identification et lecture des principales recommandations
+                    - Synthèse et Recommandations <br />- Remerciements
                     </p>
-                  
+
+                    
 
                   </p>
                 </div>
@@ -424,10 +428,9 @@ const Tabs = ({ color }) => {
                   id="link10"
                 >
                   <p>
-                  <span className="text-xl font-bold px-4 ">
-                  Déjeuner et Réseautage
+                    <span className="text-xl font-bold px-4 ">
+                    Déjeuner
                     </span>
-                  
                   </p>
                 </div>
               </div>

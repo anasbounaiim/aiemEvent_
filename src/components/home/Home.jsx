@@ -68,7 +68,7 @@ const Home = () => {
             ''LA GESTION DURABLE DE L’EAU, VERS UN MODÈLE INNOVANT ET
             RÉSILIENT''
           </h1>
-          <p className="text-sm font-custom1 p-6 text-center ">
+          <p className="text-sm font-custom1 p-6 break-normal  ">
             L'Association des Ingénieurs de l'École Mohammadia, avec son Club de
             Développement Durable (CDD) et l'École Mohammadia d'Ingénieurs
             (EMI), a obtenu le haut patronage de Sa Majesté le Roi Mohammed VI
@@ -109,6 +109,9 @@ const Home = () => {
         </h1>
         <Program color="blue" />
         <p className="text-white px-5 lg:px-40 mt-[-22px] pb-10 bg-[#484494]">
+          {/* Program 2024 */}
+
+          {/* 
           <p>
             <span className="text-xl font-bold">
               Novembre 2023 - Mars 2024 :
@@ -121,13 +124,15 @@ const Home = () => {
               l’accent sur les spécificités régionales et les besoins y
               afférents.
             </span>
-          </p>
+          </p> 
 
           <p>
             <span className="text-xl font-bold ">22 Mars 2024 : </span>
             <span> Célébration de la journée mondiale de l’Eau à l’EMI</span>
           </p>
+          */}
         </p>
+        
       </div>
 
       <div className="w-full h-fit  lg:h-fit bg-white">
@@ -219,27 +224,52 @@ Ministère de l'Équipement et de l'Eau
           Quelques évènements du CDD
         </h1>
 
-        <div className="w-full flex justify-center lg:mt-8">
-          <div className="carousel carousel-center h-[400px] lg:h-[500px]  lg:w-[70%] p-4 gap-7   rounded-box">
-            <div className="carousel-item">
-              <img src={car1} className="rounded-box" />
-            </div>
-            <div className="carousel-item">
-              <img src={car2} className="rounded-box" />
-            </div>
-            <div className="carousel-item">
-              <img src={car3} className="rounded-box" />
-            </div>
-            <div className="carousel-item">
-              <img src={car4} className="rounded-box" />
-            </div>
-            <div className="carousel-item">
-              <img src={car5} className="rounded-box" />
-            </div>
-            <div className="carousel-item">
-              <img src={car6} className="rounded-box" />
-            </div>
-          </div>
+        <div className="w-full flex justify-center ">
+        <div className="carousel w-[60%] lg:mt-8">
+  <div id="slide1" className="carousel-item relative w-full">
+    <img src={car1} className="w-full  h-[600px]" />
+    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slide4" className="btn btn-circle">❮</a> 
+      <a href="#slide2" className="btn btn-circle">❯</a>
+    </div>
+  </div> 
+  <div id="slide2" className="carousel-item relative w-full">
+    <img src={car2} className="w-full  h-[600px]" />
+    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slide1" className="btn btn-circle">❮</a> 
+      <a href="#slide3" className="btn btn-circle">❯</a>
+    </div>
+  </div> 
+  <div id="slide3" className="carousel-item relative w-full">
+    <img src={car3} className="w-full  h-[600px]" />
+    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slide2" className="btn btn-circle">❮</a> 
+      <a href="#slide4" className="btn btn-circle">❯</a>
+    </div>
+  </div> 
+  <div id="slide4" className="carousel-item relative w-full">
+    <img src={car4} className="w-full  h-[600px]" />
+    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slide3" className="btn btn-circle">❮</a> 
+      <a href="#slide1" className="btn btn-circle">❯</a>
+    </div>
+  </div>
+  <div id="slide4" className="carousel-item relative w-full">
+    <img src={car5} className="w-full  h-[600px]" />
+    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slide3" className="btn btn-circle">❮</a> 
+      <a href="#slide1" className="btn btn-circle">❯</a>
+    </div>
+  </div>
+  <div id="slide4" className="carousel-item relative w-full">
+    <img src={car6} className="w-full h-[600px]" />
+    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slide3" className="btn btn-circle">❮</a> 
+      <a href="#slide1" className="btn btn-circle">❯</a>
+    </div>
+  </div>
+</div>
+
         </div>
       </div>
      
