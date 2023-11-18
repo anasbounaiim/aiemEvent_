@@ -71,7 +71,7 @@ const About = () => {
           <li>Club Digital</li>
         </ul>
         <h2 className="text-3xl text-[#484494]  pt-2 text-center font-custom">
-          Présentations internationales
+          Représentations internationales
         </h2>
         <ul className="text-center text-[#484494]">
           <li>Bureau AIEM Afrique</li>

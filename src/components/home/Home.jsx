@@ -27,6 +27,8 @@ import afch_gif from "../../../public/animation_affiche.gif"
 import Program from "./Program";
 import CountDown from "./CountDown";
 import Footer from "../Footer";
+import Commite from "./comite";
+import Sponsors from "./Sponsors";
 
 const Home = () => {
   return (
@@ -68,7 +70,7 @@ const Home = () => {
             ''LA GESTION DURABLE DE L’EAU, VERS UN MODÈLE INNOVANT ET
             RÉSILIENT''
           </h1>
-          <p className="text-sm font-custom1 p-6 break-normal  ">
+          <p className="text-sm font-custom1 p-6 break-all  ">
             L'Association des Ingénieurs de l'École Mohammadia, avec son Club de
             Développement Durable (CDD) et l'École Mohammadia d'Ingénieurs
             (EMI), a obtenu le haut patronage de Sa Majesté le Roi Mohammed VI
@@ -206,6 +208,8 @@ Ministère de l'Équipement et de l'Eau
             </span>
           </div>
         </div>
+
+        <Commite/>
         <div className="flex flex-row p-4 lg:p-0 justify-center items-center w-full h-[700px] mt-5 lg:h-[700px] bg-[#484494] lg:mt-20">
             <div className="bg-white flex flex-col gap-5 p-14 font-custom1 text-[#484494] w-[500px] h-[600px] lg:h-[500px] lg:rounded-none rounded-xl lg:rounded-l-lg  xl:rounded-l-lg">
               <span className=" font-semibold">S'INSCRIRE</span> 
@@ -251,6 +255,12 @@ Ministère de l'Équipement et de l'Eau
 
         </div>
       </div>
+      
+      <h1 className="text-[#484494] lg:mt-12 text-center pt-10 text-5xl px-2 lg:text-7xl font-custom">
+      Sponsors
+        </h1>
+
+      <Sponsors/>
      
       
       <div className="flex justify-center my-28 flex-col lg:flex-row">
@@ -267,7 +277,7 @@ Ministère de l'Équipement et de l'Eau
           <p className="text-white font-custom1 m-2 font-extralight ">La manifestation aura lieu du 25 novembre 2023 dans notre toute nouvelle installation, Av. Ibn Sina, Rabat. </p>
           <p className="text-white font-custom1 m-2 font-extralight ">Veuillez noter : Il ne s'agit PAS du Forum des magasins OU du Palais des Césars - il s'agit d'un tout nouveau lieu situé à travers la promenade de la LINQ, sous la Grande Roue d'Observation High Roller. Adresse de l'événement : Av. Ibn Sina, Rabat.</p>
            <br />
-          <button className="btn btn-wide bg-white text-[#484494] border-none hover:bg-slate-100">GO to maps</button>
+          <a href="https://maps.app.goo.gl/PxRo57PAMgeWcZwd9" target="_blank" className="btn btn-wide bg-white text-[#484494] border-none hover:bg-slate-100"> Allez à la carte</a>
         </div>
         
       </div>
