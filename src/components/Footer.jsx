@@ -1,4 +1,7 @@
 import logo from "../../public/logo_aiem.png"
+import { FaYoutube ,FaSquareFacebook } from "react-icons/fa6";
+import { FaLinkedin ,FaGlobe} from "react-icons/fa";
+
 
 const Footer = () => {
     return ( 
@@ -11,19 +14,21 @@ const Footer = () => {
                 <img src={logo} class="w-20" alt="Flowbite Logo" />
                 
             </a>
-            <ul class="flex flex-wrap items-center mb-6 text-sm font-medium  sm:mb-0 text-white font-custom1">
+            <ul class="flex flex-wrap items-center justify-center mb-6 text-sm font-medium  sm:mb-0 text-white font-custom1">
                 <li>
-                    <a href="#" class="hover:underline me-4 md:me-6">Website</a>
+                    <a href="https://www.aiem.ma/" target="_blank" ><FaGlobe  className="text-3xl mx-5 mt-3 hover:text-gray-200" /></a>
                 </li>
                 <li>
-                    <a href="#" class="hover:underline me-4 md:me-6">Youtube</a>
+                    <a href="https://www.facebook.com/AIEMOfficiel" target="_blank" ><FaSquareFacebook className="text-3xl mx-5 mt-3 hover:text-gray-200" /></a>
                 </li>
                 <li>
-                    <a href="#" class="hover:underline me-4 md:me-6">Linkedin</a>
+                    <a href="https://www.youtube.com/@aiemofficiel7470" target="_blank" ><FaYoutube className="text-3xl mx-5 mt-3 hover:text-gray-200" /></a>
                 </li>
                 <li>
-                    <a href="#" class="hover:underline">Contact</a>
+                    <a href="https://www.linkedin.com/company/association-des-ing%C3%A9nieurs-de-l-ecole-mohammadia/" target="_blank" > <FaLinkedin className="text-3xl mx-5 mt-3 hover:text-gray-200" /></a>
                 </li>
+               
+                
             </ul>
         </div>
         <hr class="my-6  sm:mx-auto lg:my-8" />

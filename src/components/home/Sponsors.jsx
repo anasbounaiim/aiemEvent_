@@ -47,11 +47,11 @@ spnsr6,
   ];
 
   return (
-    <div className=" w-[85%] h-fit mt-12  m-auto p-10 flex flex-col gap-6 ">
+    <div className=" lg:w-[85%] h-fit mt-12  m-auto p-10 flex flex-col gap-6 ">
       
       <Slider {...settings}>
         {images.map((image, index) => (
-          <div key={index} className="   h-min  lg:px-14 px-5  items-center">
+          <div key={index} className="   h-min  lg:px-14 px-2  ">
             <img src={image} className="w-full max-w-md lg:w-full h-full " alt={`Slide ${index + 1}`} />
           </div>
         ))}
