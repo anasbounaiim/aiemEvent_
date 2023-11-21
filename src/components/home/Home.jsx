@@ -267,12 +267,12 @@ Ministère de l'Équipement et de l'Eau
 
         </div>
       </div>
-      
+      {/*
       <h1 className="text-[#484494] lg:mt-12 text-center pt-10 text-5xl px-2 lg:text-7xl font-custom">
       Sponsors
         </h1>
 
-      {/* <Sponsors/> */}
+       <Sponsors/> */}
      
       
       <div className="flex justify-center my-28 flex-col lg:flex-row">
