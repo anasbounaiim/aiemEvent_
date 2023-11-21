@@ -142,76 +142,10 @@ const Home = () => {
 
       <div className="w-full h-fit  lg:h-fit bg-white">
         <h1 className="text-[#484494] lg:mt-12 text-center pt-10 text-5xl px-2 lg:text-7xl font-custom">
-          Nos intervenants
+        Conférence Inaugurale
         </h1>
-        <div className="mt-10 lg:mt-16 h-fit flex lg:flex-row flex-col w-full justify-center items-center  gap-3">
-           {/* new intervenat */}
-           <div className="w-96 h-w-96 flex flex-col justify-center items-center gap-3">
-            <img src={pdp6} className="w-44" alt="ABDELLATIF MIRAOUI" />{" "}
-            <span className="text-xl text-[#484494] font-custom1 font-bold">
-            M. ABDELLATIF MIRAOUI
-            </span>{" "}
-            <span className="text-base text-[#484494] font-custom1  text-center">
-Ministère de l'Enseignement Supérieur, de la
-Recherche Scientifique et l'Innovation
-            </span>
-          </div>
-          {/* new intervenat */}
-           <div className="w-96 h-w-96 flex flex-col justify-center items-center gap-3">
-            <img src={pdp5} className="w-44" alt="ABDELLATIF MIRAOUI" />{" "}
-            <span className="text-xl text-[#484494] font-custom1 font-bold">
-            M. NIZAR BARAKA
-            </span>{" "}
-            <span className="text-base text-[#484494] font-custom1  text-center">
-Ministère de l'Équipement et de l'Eau
-            </span>
-          </div>
-        </div>
-        <div className=" mt-10 lg:mt-16 h-fit flex lg:flex-row flex-col w-full justify-center items-center">
-        <div className="w-96 h-w-96 flex flex-col justify-center items-center gap-3">
-            <img src={pdp2} className="w-44" alt="" />{" "}
-            <span className="text-xl text-[#484494] font-custom1 font-bold">
-              Mme Nawal Gharmili Sefrioui
-            </span>{" "}
-            <span className="text-base text-[#484494] font-custom1  text-center">
-              PRÉSIDENTE DE L’AIEM
-            </span>
-          </div>
-          <div className="w-96 h-w-96 flex flex-col justify-center items-center gap-3">
-            <img src={pdp3} className="w-44" alt="" />{" "}
-            <span className="text-xl text-[#484494] font-custom1 font-bold">
-              M. Hassane Mahmoudi
-            </span>{" "}
-            <span className="text-base text-[#484494] font-custom1  text-center">
-              DIRECTEUR DE L’ECOLE MOHAMMADIA D’INGÉNIEURS
-            </span>
-          </div>
-
-         
-         
-          {/* new intervenat */}
-          <div className="w-96 h-w-96 flex flex-col justify-center items-center gap-3">
-            <img src={pdp4} className="w-44" alt="ABDELLATIF MIRAOUI" />{" "}
-            <span className="text-xl text-[#484494] font-custom1 font-bold">
-            M. FARID EL BACHA
-            </span>{" "}
-            <span className="text-base text-[#484494] font-custom1  text-center">
-            Président par Intérim de l'Université Mohammed V
-            </span>
-          </div>
-          
-
-          <div className="w-96 h-w-96 flex flex-col justify-center items-center gap-3">
-            <img src={pdp1} className="w-44" alt="" />{" "}
-            <span className="text-xl text-[#484494] font-custom1 font-bold">
-              Mme Asmae Eloufir
-            </span>{" "}
-            <span className="text-base text-[#484494] font-custom1  text-center">
-              LA SECRÉTAIRE GÉNÉRALE DU CLUB DE DÉVELOPPEMENT DURABLE CDD
-            </span>
-          </div>
-        </div>
-
+    
+       
         
         {/* <Commit2/> */}
         <div className="flex justify-center items-center mt-6  lg:mt-24">
