@@ -22,6 +22,7 @@ import car6 from "../../../public/car6.png";
 import maps from "../../../public/maps.png";
 import water from "../../../public/waterEcole.png";
 import panel from "../../../public/panel1.jpg";
+import pane2 from "../../../public/panel2.jpg";
 
 import afch_gif from "../../../public/animation_affiche.gif"
 
@@ -213,7 +214,9 @@ Ministère de l'Équipement et de l'Eau
 
         
         {/* <Commit2/> */}
-
+        <div className="flex justify-center items-center mt-6  lg:mt-24">
+          <img src={pane2} alt="" />
+        </div>
 
         <div className="flex justify-center items-center mt-6  lg:mt-24">
           <img src={panel} alt="" />
