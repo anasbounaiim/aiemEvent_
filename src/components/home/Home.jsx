@@ -270,7 +270,7 @@ Ministère de l'Équipement et de l'Eau
       Sponsors
         </h1>
 
-      <Sponsors/>
+      {/* <Sponsors/> */}
      
       
       <div className="flex justify-center my-28 flex-col lg:flex-row">
