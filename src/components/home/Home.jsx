@@ -21,6 +21,7 @@ import car5 from "../../../public/car5.png";
 import car6 from "../../../public/car6.png";
 import maps from "../../../public/maps.png";
 import water from "../../../public/waterEcole.png";
+import panel from "../../../public/panel1.jpg";
 
 import afch_gif from "../../../public/animation_affiche.gif"
 
@@ -28,6 +29,7 @@ import Program from "./Program";
 import CountDown from "./CountDown";
 import Footer from "../Footer";
 import Commite from "./comite";
+import Commit2 from "./comite2";
 import Sponsors from "./Sponsors";
 
 const Home = () => {
@@ -210,6 +212,14 @@ Ministère de l'Équipement et de l'Eau
         </div>
 
         <Commite/>
+        <Commit2/>
+
+
+        {/* <div className="flex justify-center items-center">
+          <img src={panel} alt="" />
+        </div> */}
+
+
         <div className="flex flex-row p-4 lg:p-0 justify-center items-center w-full h-[700px] mt-5 lg:h-[700px] bg-[#484494] lg:mt-20">
             <div className="bg-white flex flex-col gap-5 p-14 font-custom1 text-[#484494] w-[500px] h-[600px] lg:h-[500px] lg:rounded-none rounded-xl lg:rounded-l-lg  xl:rounded-l-lg">
               <span className=" font-semibold">S'INSCRIRE</span> 
