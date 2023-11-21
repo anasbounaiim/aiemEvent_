@@ -215,7 +215,7 @@ Ministère de l'Équipement et de l'Eau
         {/* <Commit2/> */}
 
 
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center mt-6  lg:mt-24">
           <img src={panel} alt="" />
         </div>
 
