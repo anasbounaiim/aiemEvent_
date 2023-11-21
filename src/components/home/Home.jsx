@@ -211,13 +211,15 @@ Ministère de l'Équipement et de l'Eau
           </div>
         </div>
 
-        <Commite/>
+        
         {/* <Commit2/> */}
 
 
         <div className="flex justify-center items-center mt-6  lg:mt-24">
           <img src={panel} alt="" />
         </div>
+
+        <Commite/>
 
 
         <div className="flex flex-row p-4 lg:p-0 justify-center items-center w-full h-[700px] mt-5 lg:h-[700px] bg-[#484494] lg:mt-20">
