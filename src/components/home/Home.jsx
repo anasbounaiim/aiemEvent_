@@ -45,7 +45,7 @@ const Home = () => {
             La Gestion Durable de L’Eau, Vers Un Modèle Innovant ET Résilient
           </h1>
           <h2 className="text-white  text-4xl md:text-5xl lg:text-5xl font-custom text-center w-full md:w-[70%] leading-[2rem] md:leading-[3rem]">
-            25 Novembre 2023 à 08h30
+            25 Novembre 2023 à 08h00
           </h2>
          
           <h3 className="text-white text-xl md:text-5xl lg:text-2xl font-custom text-center w-full md:w-[70%] leading-[2rem] md:leading-[4rem]">
