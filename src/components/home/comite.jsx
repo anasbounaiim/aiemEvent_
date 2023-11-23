@@ -122,9 +122,7 @@ Professeur à l’EMI
             M. MOHAMMED BENAHMED
             </span>{" "}
             <span className="text-base text-[#484494] font-custom1  text-center">
-            Président de l’Alliance Maroc
-Innovation et Émergence
-Et vis SG du CDD
+Président de l'Alliance Maroc Innovation et Émergence et SG adjoint du Club Développement Durable
             </span>
           </div>
           {/* new intervenat */}
