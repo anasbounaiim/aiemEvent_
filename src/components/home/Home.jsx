@@ -155,13 +155,22 @@ const Home = () => {
         
         {/* <Commit2/> */}
         <div className="flex justify-center items-center mt-6  lg:mt-24">
-          <img src={pane2} alt="" />
+          <img src={faffich5} alt="" />
         </div>
 
         <div className="flex justify-center items-center mt-6  lg:mt-24">
-          <img src={panel} alt="" />
+          <img src={faffich1} alt="" />
         </div>
-
+        <div className="flex justify-center items-center mt-6  lg:mt-24">
+          <img src={faffich2} alt="" />
+        </div>
+        <div className="flex justify-center items-center mt-6  lg:mt-24">
+          <img src={faffich3} alt="" />
+        </div>
+        
+<div className="flex justify-center items-center mt-6  lg:mt-24">
+          <img src={faffich4} alt="" />
+        </div>
         <Commite/>
 
 
