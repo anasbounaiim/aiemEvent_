@@ -13,6 +13,12 @@ import pdp4 from "../../../public/pdp4.png";
 import pdp5 from "../../../public/pdp5.png";
 import pdp6 from "../../../public/pdp6.png";
 
+import faffich1 from "../../../public/faffich1.jpg";
+import faffich2 from "../../../public/faffich2.jpg";
+import faffich3 from "../../../public/faffich3.jpg";
+import faffich4 from "../../../public/faffich4.jpg";
+import faffich5 from "../../../public/faffich5.jpg";
+
 import car1 from "../../../public/car1.png";
 import car2 from "../../../public/car2.png";
 import car3 from "../../../public/car3.png";
